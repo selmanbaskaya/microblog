@@ -92,3 +92,5 @@ Traceback (most recent call last):
     {% extends "base.html" %}
 jinja2.exceptions.TemplateRuntimeError: extended multiple times
 2021-01-22 15:52:43,447 INFO: Microblog startup [in /home/selmanbaskaya/Desktop/microblog/app/__init__.py:46]
+2021-01-22 16:03:24,537 INFO: Microblog startup [in /home/selmanbaskaya/Desktop/microblog/app/__init__.py:48]
+2021-01-22 16:04:49,466 INFO: Microblog startup [in /home/selmanbaskaya/Desktop/microblog/app/__init__.py:48]
