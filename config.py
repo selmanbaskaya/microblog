@@ -4,6 +4,7 @@ from dotenv import load_dotenv
 basedir = os.path.abspath(os.path.dirname(__file__))
 load_dotenv(os.path.join(basedir, '.env'))
 
+
 class Config(object):
     SECRET_KEY = os.environ.get('SECRET_KEY') or 'you-will-never-guess'
     SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL') or \
@@ -16,5 +17,4 @@ class Config(object):
     MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD')
     ADMINS = ['selmanbasjaya1@gmail.com']
     POSTS_PER_PAGE = 25
-    ELASTICSEARCH_URL = os.environ.get('ELASTICSEARCH_URL')
-    LOG_TO_STDOUT = os.environ.get('LOG_TO_STDOUT')
+    
